@@ -20,7 +20,6 @@ void input_data(int n, int data[n])
     }
 }
 
-/*
 void partition_array(int length, int data[length])
 {
     int pivot_ptr = 0;
@@ -43,8 +42,8 @@ void partition_array(int length, int data[length])
         }
     }
 }
-*/
 
+/*
 void partition_array(int length, int data[length])
 {
     int small_el_count = 0;
@@ -71,6 +70,7 @@ void partition_array(int length, int data[length])
     data[0] = data[small_el_count];
     data[small_el_count] = temp;
 }
+*/
 
 void output(int length, int result[length])
 {
